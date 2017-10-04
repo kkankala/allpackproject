@@ -1,0 +1,10 @@
+import 'jquery'
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'event-source-polyfill';
+import 'isomorphic-fetch';
+import 'font-awesome/css/font-awesome.css';
+import "lodash";
+import "react";
+import "react-dom";
+import 'react-router-dom';

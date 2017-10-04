@@ -64,3 +64,46 @@
         text-overflow: ellipsis;
     }
 }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.fa-star {
+    margin: 0.5em;
+    font-size: 24px;
+  }
+
+  .number-span {
+    display: inline-block;
+    margin: 0.5em;
+    text-align: center;
+    background-color: #ccc;
+    width: 24px;
+    border-radius: 50%;
+    cursor: pointer;  
+  }
+
+  .used {
+    background-color: #aaddaa;
+    color: #99bb99;
+      cursor: not-allowed;  
+  }
+  
+  .selected {
+    background-color: #eee;
+    color: #ddd;
+      cursor: not-allowed;  
+  }
